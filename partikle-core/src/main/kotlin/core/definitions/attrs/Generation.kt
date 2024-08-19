@@ -1,4 +1,4 @@
-package core.definitions
+package core.definitions.attrs
 
 enum class Generation {
     First,
