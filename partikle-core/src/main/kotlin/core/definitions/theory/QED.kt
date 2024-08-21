@@ -20,6 +20,6 @@ class QED: Theory {
     override val InteractionVertices: List<InteractionVertex>
         get() = TODO("Not yet implemented")
     override fun allows(interactionVertex: InteractionVertex): Boolean {
-        TODO("Not yet implemented")
+        return true
     }
 }
