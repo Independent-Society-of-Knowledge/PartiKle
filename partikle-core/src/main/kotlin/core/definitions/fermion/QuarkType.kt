@@ -1,7 +1,7 @@
 package core.definitions.fermion
 
 
-enum class QuarkType {
+enum class QuarkType : FermionType {
     // Quarks
     Up,
     AntiUp,

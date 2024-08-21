@@ -4,12 +4,12 @@ import core.definitions.attrs.ColorCharge
 import core.definitions.attrs.ElectricCharge
 import core.definitions.attrs.Generation
 
-data class Lepton<LeptonType>(
+data class Lepton(
     override val type: LeptonType,
     override val mass: Double,
     override val electricCharge: ElectricCharge,
     override val generation: Generation,
-) : Fermion<LeptonType> {
+) : Fermion {
 
     override val colorCharge: ColorCharge = ColorCharge.Neutral
 

@@ -1,6 +1,6 @@
 package core.definitions.fermion
 
-enum class LeptonType {
+enum class LeptonType : FermionType {
     // Leptons
     Electron,
     AntiElectron,

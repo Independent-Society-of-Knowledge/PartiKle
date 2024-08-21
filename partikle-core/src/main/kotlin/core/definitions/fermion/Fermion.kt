@@ -5,10 +5,9 @@ import core.definitions.attrs.ElectricCharge
 import core.definitions.attrs.Generation
 import core.definitions.attrs.Spin
 import core.utils.idGen
-import java.util.concurrent.atomic.AtomicLong
 
-interface Fermion<T> {
-    val type: T
+interface Fermion {
+    val type: FermionType
     val mass: Double
     val electricCharge: ElectricCharge
     val colorCharge: ColorCharge
