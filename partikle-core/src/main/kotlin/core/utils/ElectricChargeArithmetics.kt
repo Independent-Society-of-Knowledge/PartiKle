@@ -27,15 +27,15 @@ fun Double.toElectricCharge(): ElectricCharge? {
         ElectricCharge.Zero
     } else if (this inRange -1.01..-.99) {
         ElectricCharge.NegativeOne
-    } else if (this inRange 0.99 .. 1.01){
+    } else if (this inRange 0.99..1.01) {
         ElectricCharge.PositiveOne
-    } else if (this inRange 0.29 .. 0.31){
+    } else if (this inRange 0.29..0.31) {
         ElectricCharge.PositiveOneThirds
-    } else if (this inRange -0.31 .. -0.29){
+    } else if (this inRange -0.31..-0.29) {
         ElectricCharge.NegativeOneThirds
-    } else if (this inRange 0.65 .. 0.67){
+    } else if (this inRange 0.65..0.67) {
         ElectricCharge.PositiveTwoThirds
-    } else if (this inRange -0.67 .. 0.65){
+    } else if (this inRange -0.67..0.65) {
         ElectricCharge.NegativeTwoThirds
     } else {
         // TODO Here we have to throw an exception.
